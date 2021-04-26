@@ -1,0 +1,26 @@
+<div class="grid">
+    <div class="sideBar" *ngIf="hide">
+        <div>
+            <small>Меню</small>
+            <a href="#home"><img src="/assets/table.svg"/> Главная</a>
+            <a href="#news"><img src="/assets/message-bar.svg"/> Сообщения</a>
+            <a href="#contact"><img src="/assets/calendar.svg"/> Календарь</a>
+            <a href="#about"><img src="/assets/gear.svg"/> Настройки</a>
+        </div>
+        <div>
+            <small>Поддержка</small>
+            <a href="#home"><img src="/assets/question.svg"/> Нужна помощь?</a>
+            <a href="#news"><img src="/assets/phone.svg"/> Связаться с нами</a>
+        </div>
+        <div>
+            <small>Дополнительно</small>
+            <a href="#news"><img src="/assets/darkmode.svg"/> Темный режим</a>
+            <a href="#news"><img src="/assets/log-out.svg"/> Выход</a>
+            <a>Условия использования</a>
+            <a>Политика конфиденциальности</a>
+        </div>
+    </div>
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+</div>

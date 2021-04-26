@@ -1,0 +1,85 @@
+.content {
+    // margin-left: 15vw;
+    padding: 20px;
+    height: 75vh;
+    width: 100vw;
+    p{
+        color: #b5bbc8;
+        font-weight: bold;
+    }
+}
+.header {
+    width: 100vw;
+    height: 10vh;
+    background: white;
+    input[type="text"] {
+        width: 70%;
+        padding: 12px 20px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        &:focus {
+            outline: none !important;
+        }
+    }
+    img {
+        order: 2;
+        border-radius: 40px;
+    }
+}
+
+.card {
+    height: 35vh;
+    width: 70%;
+    background: white;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+
+    &:hover {
+        transform: translateY(-20px) scale(1.1) translateZ(0);
+        transition: 0.5s;
+    }
+    .headerCard {
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            border-radius: 60px;
+            height: 100%;
+            width: 30%;
+        }
+    }
+    .bodyCard {
+        padding: 10px;
+        height: 100%;
+        img {
+            padding: 5px;
+        }
+        button {
+            border-radius: 5px;
+        }
+
+        .profile {
+            background: white;
+            border-color: #edeef1;
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+        }
+        .message {
+            background: #1880d8;
+            border-color: #edeef1;
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+            color: white;
+        }
+    }
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+// }

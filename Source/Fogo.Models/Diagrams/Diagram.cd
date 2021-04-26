@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Fogo.Models.AdvertiserModel">
+    <Position X="2.75" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AdvertiserModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Fogo.Models.AdvertTypeModel">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AdvertTypeModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fogo.Models.ExecutorModel">
+    <Position X="5.5" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAAAAACAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExecutorModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Fogo.Models.ExecutorSocialNetworkModel">
+    <Position X="5.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAACQAAAAAAAAEAAAAAAQACAAAAAAAAAA=</HashCode>
+      <FileName>ExecutorSocialNetworkModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Executor" />
+      <Property Name="SocialNetwork" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Fogo.Models.RoleModel">
+    <Position X="2.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RoleModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fogo.Models.SocialNetworkAdvertTypeModel">
+    <Position X="12.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAQAAAAAAAYAAAA=</HashCode>
+      <FileName>SocialNetworkAdvertTypeModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SocialNetwork" />
+      <Property Name="AdvertType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Fogo.Models.SocialNetworkModel">
+    <Position X="9" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQACAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>SocialNetworkModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fogo.Models.UserModel">
+    <Position X="2.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACCCEAAAAAAAAAAAAAAAAAABgAAAAAAAAAAIAAAAAg=</HashCode>
+      <FileName>UserModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fogo.Models.UserRoleModel">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAIAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserRoleModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="User" />
+      <Property Name="Role" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
